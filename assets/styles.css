@@ -1,0 +1,5 @@
+
+.divfila {
+    display:flex;
+    justify-content: space-between
+}

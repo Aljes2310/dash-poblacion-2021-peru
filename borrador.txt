@@ -1,0 +1,4 @@
+ """ html.Table([
+    html.Tr([html.Td(["Total: "]), html.Td()])
+    ], style= {"textAlign": "center",
+               "background": "grey"}), """
