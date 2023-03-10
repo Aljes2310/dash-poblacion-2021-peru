@@ -5,9 +5,8 @@ import dash_bootstrap_components as dbc
 
 
 app = Dash(__name__)
-
-df= pd.read_csv("TB_POBLACION_INEI.csv", 
-                nrows=10000)
+server=app.server
+df= pd.read_csv("TB_POBLACION_INEI.csv")
 
 
 
